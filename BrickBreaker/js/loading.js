@@ -6,6 +6,7 @@ function loading() {
                 animloop();
                 $("#light").hide();
                 $("#building").hide();
+                draw.light();
         };
 	window.onload = loaded;
 };
